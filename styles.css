@@ -109,8 +109,9 @@ section {
   }
 
   #home {
-    height: 55vh;
+    padding-top: 10vh;
   }
+
   .top-text {
     font-size: 10pt;
     justify-content: center;
