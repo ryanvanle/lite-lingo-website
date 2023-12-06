@@ -73,3 +73,8 @@ section {
   margin-right: auto;
   width: 5%;
 }
+
+.highlighted-text mark{
+  background-color: #FACA3A;
+  padding:0.1em 0.2em
+}
