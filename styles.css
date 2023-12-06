@@ -103,7 +103,7 @@ section {
   padding:0.1em 0.2em;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 800px) {
   .fluid-container {
     padding: 5vh;
   }
