@@ -125,12 +125,13 @@ section {
   }
 
   #logo {
-    width: 40%;
+    width: 50%;
 
   }
   #title {
-    width: 70%;
-    padding-left: 6vh;
+    width: 75%;
+    padding-left: 6.5vh;
+    padding-bottom: 2vh;
   }
 
   .bottom-text {
@@ -144,5 +145,9 @@ section {
     font-size: 10pt;
     background-color: #FACA3A;
     padding:0.1em 0.2em;
+  }
+
+  .arrow {
+    padding: 5%;
   }
 }
