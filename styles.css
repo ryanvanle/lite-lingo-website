@@ -108,7 +108,10 @@ section {
   .fluid-container {
     padding: 5vh;
     padding-top: 20vh;
-    height: 70vh;
+
+  }
+  #home {
+    height: 75vh;
   }
 
   .top-text {
