@@ -56,7 +56,8 @@ html, body {
     color: #2D2D2D;
     text-align: center;
     text-decoration: none;
-    padding: 3px;
+    padding: 8px;
+    font-size: 8pt;
   }
 }
 
@@ -106,17 +107,14 @@ section {
 @media only screen and (max-width: 800px) {
   .fluid-container {
     padding: 5vh;
-  }
-
-  #home {
-    padding-top: 10vh;
+    padding-top: 20vh;
     height: 70vh;
   }
 
   .top-text {
-    font-size: 10pt;
+    font-size: 12pt;
     justify-content: center;
-    padding-left: 30%;
+    padding-left: 22%;
     padding-top: 20px;
     padding-bottom: 10px;
   }
@@ -131,13 +129,13 @@ section {
   }
   #title {
     width: 75%;
-    padding-left: 6.5vh;
+    padding-left: 5vh;
     padding-bottom: 2vh;
   }
 
   .bottom-text {
-    font-size: 10pt;
-    padding-left: 30%;
+    font-size: 12pt;
+    padding-left: 22%;
     padding-bottom: 10%;
     margin-top: 0;
   }
