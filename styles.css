@@ -181,3 +181,14 @@ footer {
 footer p {
   padding-right: 15px;
 }
+
+@media only screen and (max-width: 800px) {
+  #logo-end {
+    width: 20%;
+    padding-left: 0;
+  }
+
+  footer p {
+    font-size: 5pt;
+  }
+}
