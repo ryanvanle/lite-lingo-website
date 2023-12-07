@@ -110,6 +110,7 @@ section {
 
   #home {
     padding-top: 10vh;
+    height: 70vh;
   }
 
   .top-text {
@@ -149,5 +150,6 @@ section {
 
   .arrow {
     padding: 5%;
+    padding-top: 15%;
   }
 }
