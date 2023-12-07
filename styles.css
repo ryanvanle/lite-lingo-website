@@ -107,10 +107,12 @@ section {
 @media only screen and (max-width: 800px) {
   .fluid-container {
     padding: 5vh;
-    padding-top: 20vh;
-
+    padding-top: 10vh;
+    margin-bottom: 10vh;
   }
+
   #home {
+    padding-top: 20vh;
     height: 75vh;
   }
 
@@ -153,4 +155,29 @@ section {
     padding: 5%;
     padding-top: 15%;
   }
+}
+
+#page-end {
+  display: block;
+  padding-left: 40%;
+}
+
+#page-end div {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+#logo-end {
+  width: 20%;
+  padding-left: 10vh;
+}
+
+footer {
+  text-align: right;
+  padding: 3px;
+  background-color: #545454;
+  color: #F7F7F7;
+}
+footer p {
+  padding-right: 15px;
 }
