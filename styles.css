@@ -96,13 +96,13 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  /* margin-top: 0vh; */
   width: 100%;
   height: 80%;
 }
 
 .top-text {
   font-size: 2em;
-  margin-top: 5vh;
   /* padding-left: 35%; */
 }
 
@@ -127,7 +127,7 @@ section {
 
 .bottom-text {
   /* padding-left: 40%; */
-  margin-bottom: 3%;
+  /* margin-bottom: 3%; */
 }
 
 .arrow {
