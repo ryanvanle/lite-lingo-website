@@ -63,12 +63,14 @@ html, body {
 
 section {
   padding: 20vh;
+  padding-bottom: 5vh;
 }
 
 #home {
   background-color: #545454;
   color: #F7F7F7;
   height: 60vh;
+  padding-bottom: 20vh;
 }
 
 .top-text {
@@ -106,9 +108,9 @@ section {
 
 @media only screen and (max-width: 800px) {
   .fluid-container {
-    padding: 5vh;
-    padding-top: 10vh;
-    margin-bottom: 10vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+
   }
 
   #home {
