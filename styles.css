@@ -162,7 +162,16 @@ section {
 .member-container {
   display: inline-block;
   padding: 3vh;
+  width: 20%;
 }
+
+.team-pfp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+ }
+
 .member-container p {
   text-align: center;
   line-height: 5pt;
@@ -180,7 +189,7 @@ section {
   color:#FACA3A;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .member-container {
     padding: 2vh;
     display: flex;
