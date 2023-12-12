@@ -11,7 +11,11 @@
  * CHANGE: Describe what your init function does here.
  */
   function init() {
-    console.log("hello");
+
+    let nav = qs(".nav-bar");
+    let height = nav.offsetHeight;
+    document.documentElement.style.setProperty('--scroll-padding', height - 25 + "px")
+
     // THIS IS THE CODE THAT WILL BE EXECUTED ONCE THE WEBPAGE LOADS
   }
 
