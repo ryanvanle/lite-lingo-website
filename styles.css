@@ -207,6 +207,7 @@ section {
     padding: 1vh;
     flex-wrap: nowrap;
     line-height: 10pt;
+    width: 15vh;
   }
 }
 
