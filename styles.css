@@ -343,18 +343,22 @@ video {
 }
 
 #page-end {
-  display: block;
-  padding-left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: block; */
+  /* padding-left: 40%; */
+  margin-bottom: 2rem;
 }
 
 #page-end div {
-  width: 100%;
-  margin-bottom: 5%;
+  /* width: 100%; */
+  /* margin-bottom: %; */
 }
 
 #logo-end {
-  width: 20%;
-  padding-left: 10vh;
+  width: 10vw;
+  height: 10vw;
 }
 
 footer {
@@ -363,18 +367,19 @@ footer {
   background-color: #545454;
   color: #F7F7F7;
 }
+
 footer p {
   padding-right: 15px;
 }
 
 @media only screen and (max-width: 800px) {
   #logo-end {
-    width: 20%;
-    padding-left: 0;
+    width: 23vw;
+    height: 23vw;
   }
 
   footer p {
-    font-size: 5pt;
+    font-size: 8pt;
   }
 }
 
