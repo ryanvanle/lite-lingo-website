@@ -159,6 +159,45 @@ section {
   }
 }
 
+.member-container {
+  display: inline-block;
+  padding: 3vh;
+}
+.member-container p {
+  text-align: center;
+  line-height: 5pt;
+}
+
+.member-info a {
+  color:#2D2D2D;
+}
+
+.member-info a :visited {
+  color:#2D2D2D;
+}
+
+.member-info :hover {
+  color:#FACA3A;
+}
+
+@media only screen and (max-width: 800px) {
+  .member-container {
+    padding: 2vh;
+    display: flex;
+  }
+
+  .member-container img {
+    width: 25%;
+  }
+
+  .member-container p {
+    font-size: 10pt;
+    padding: 2vh;
+    flex-wrap: nowrap;
+    line-height: 10pt;
+  }
+}
+
 #page-end {
   display: block;
   padding-left: 40%;
