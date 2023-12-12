@@ -195,8 +195,8 @@ section {
     display: flex;
   }
 
-  .member-container img {
-    width: 25%;
+  .team-pfp {
+    width: 100%;
   }
 
   .member-container p {
