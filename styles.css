@@ -312,6 +312,7 @@ video {
     flex-wrap: nowrap;
     text-wrap: nowrap;
     line-height: 10pt;
+    width: 15vh;
   }
 
   .info-container {
