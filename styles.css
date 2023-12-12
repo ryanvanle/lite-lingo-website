@@ -197,13 +197,13 @@ section {
   }
 
   .team-pfp {
-    width: 30%;
+    width: 40%;
     margin: 0;
   }
 
   .member-container p {
     font-size: 10pt;
-    padding: 2vh;
+    padding: 1vh;
     flex-wrap: nowrap;
     line-height: 10pt;
   }
