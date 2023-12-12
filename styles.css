@@ -193,10 +193,12 @@ section {
   .member-container {
     padding: 2vh;
     display: flex;
+    width: 100%;
   }
 
   .team-pfp {
-    width: 100%;
+    width: 30%;
+    margin: 0;
   }
 
   .member-container p {
